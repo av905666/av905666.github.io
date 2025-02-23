@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5aa608459c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <nav><img src="images/port logo.png" id="logo">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <i class="fa-solid fa-xmark"></i>
+        </ul>
+        <i class="fa-solid fa-bars"></i>
+    </nav>
+    <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi i'm<span>Aditya</span>Verma</h1>
+    </div>
+    </div>
+<!------About-------------------------->
+
+    <div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/photo.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+            <h1 class="subtitle">About ME</h1>
+            <p>I am a dedicated Computer Science Engineering student with 
+                a   strong   passion   for   web   development.  I  enjoy  creating 
+                dynamic  and   user-friendly   websites,  constantly  seeking  to 
+                enhance my skills  and contribute innovative ideas to the field.  
+                Passionate  about problem-solving,  coding,  and continuously 
+                learning  new  technologies  to  drive  innovation  in  software 
+                development.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Webs/App interfaces</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Building Android/iOS apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Ufff/UX</span><br>Designing Webs/App interfaces</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>App Development</span><br>Building Android/iOS apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>📍 Chandigarh University, Mohali</span><br>Bachelor of Engineering (B.E.) in Computer Science | 2022 – Present | Current CGPA: 4.68</li>
+                    <li><span>📍 Government Multipurpose Senior Secondary School, Ludhiana</span><br>Higher Secondary Education (12th) | 2021 - 2022 | Percentage: 67%</li>
+                    <li><span>📍 Decent Senior Secondary School, Ludhiana</span><br>Secondary Education (10th) | 2019 – 2020 | Percentage: 95%</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+<!---------------------------Services-------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">Event List</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code-compare"></i>
+                <h2>Web Design</h2>
+                <p>Lorem dolor, sit amet consectetur adipisicing elit. Accusamus praesentium rerum nostrum 
+                    nisi eius tempore corrupti ut? Molestias accusantium animi esse?</p>
+                    <a href="#">Learn More</a>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus praesentium rerum nostrum 
+                    nisi eius tempore corrupti ut? Molestias accusantium animi esse?</p>
+                    <a href="#">Learn More</a>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus praesentium rerum nostrum 
+                    nisi eius tempore corrupti ut? Molestias accusantium animi esse?</p>
+                    <a href="#">Learn More</a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------------------portfolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <div class="subtitle">My Work</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work.jpg" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work.jpg" alt="">
+                <div class="layer">
+                    <h3>Shopping App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!----------------------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 9056662537</p>
+                <div class="social-links">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    
+                </div>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © rights reserved.Handle with care<i class="fa-solid fa-heart-crack"></i></p>
+    </div>
+</div>
+
+<script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname){
+            for (tablink of tablinks ){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents ){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
